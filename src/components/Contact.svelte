@@ -7,7 +7,7 @@
     <h2>Ready To Start A Project Together?</h2>
     <p>I'd love to work with you. Fill out the form below to tell me more:</p>
 </div>
-<div class="my-12 bg-gray-300 border-gray-200 p-4 border-4">
+<div class="my-12 bg-gray-200 border-gray-300 p-4 border-[6px]">
 
 <form action="#" method="POST" class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
 	<div class="sm:col-span-2">
@@ -18,6 +18,7 @@
 				name="first_name"
 				id="first_name"
 				autocomplete="given-name"
+				placeholder="Your Name"
 				class="py-3 px-4 block w-full shadow-sm focus:ring-primary-500 focus:border-primary-500 border-gray-300 rounded-md"
 			/>
 		</div>
@@ -32,6 +33,7 @@
 				name="email"
 				type="email"
 				autocomplete="email"
+				placeholder="email@example.com"
 				class="py-3 px-4 block w-full shadow-sm focus:ring-primary-500 focus:border-primary-500 border-gray-300 rounded-md"
 			/>
 		</div>
@@ -43,7 +45,8 @@
 			<textarea
 				id="message"
 				name="message"
-				rows="4"
+				rows="6"
+				placeholder="Your Message"
 				class="py-3 px-4 block w-full shadow-sm focus:ring-primary-500 focus:border-primary-500 border-gray-300 rounded-md"
 			/>
 		</div>

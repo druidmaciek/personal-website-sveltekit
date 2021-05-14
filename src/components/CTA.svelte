@@ -11,7 +11,7 @@
 			up now!
 		</p>
 	</div>
-	<div class="bg-gray-300 border-gray-200 p-4 border-4">
+	<div class="bg-gray-200 border-gray-300 p-4 border-[6px]">
 		<form action="#" method="POST" class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
 			<div class="sm:col-span-2">
 				<label for="email" class="block text-sm font-medium text-gray-700">Email</label>
@@ -21,6 +21,7 @@
 						name="email"
 						type="email"
 						autocomplete="email"
+						placeholder="email@example.com"
 						class="py-3 px-4 block w-full shadow-sm focus:ring-primary-500 focus:border-primary-500 border-gray-300 rounded-md"
 					/>
 				</div>

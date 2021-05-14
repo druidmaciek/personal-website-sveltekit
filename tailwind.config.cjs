@@ -1,5 +1,6 @@
 const { tailwindExtractor } = require("tailwindcss/lib/lib/purgeUnusedStyles");
 const colors = require('tailwindcss/colors')
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 
 module.exports = {
@@ -19,9 +20,17 @@ module.exports = {
 		safelist: [/^svelte-[\d\w]+$/],
 	},
 	theme: {
+		fontFamily: {
+			sans: ['strawford', ...defaultTheme.fontFamily.sans],
+			bold: ['strawford', ...defaultTheme.fontFamily.serif],
+		},
 		extend: {
+			fontFamily: {
+				regular: ['strawford', ...defaultTheme.fontFamily.sans],
+				bold: ['strawford', ...defaultTheme.fontFamily.serif],
+			},
 			colors: {
-				primary: colors.emerald,
+				primary: colors.cyan,
 				gray: colors.coolGray,
 			}
 		},

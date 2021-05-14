@@ -33,7 +33,7 @@
     </ol>
     <p>
         If one of these situations describes your needs, you're in the right place. You can <a
-            href="#">hire me</a
+            href="#contact">hire me</a
         > to help today.
     </p>
     <h2>Why Hire Tom Hirst As Your Freelance WordPress Developer?</h2>

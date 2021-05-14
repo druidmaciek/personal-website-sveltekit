@@ -10,7 +10,15 @@
 </script>
 
 <Layout bg={'bg-gray-800'}>
-	<Hero />
+	<Hero><p><b>Do you need:</b></p>
+		<ul>
+			<li>A senior WordPress expert with over 10 years experience?</li>
+			<li>A reliable, full stack freelance WordPress developer comfortable with custom, advanced and enterprise scale work?</li>
+			<li>A freelance WordPress developer who can help with Gutenberg, the REST API and using WordPress as a headless CMS?</li>
+			<li>Guaranteed, professional development from someone delivering successful projects for start ups, medium, large and global businesses, big brands and WordPress VIP agencies?
+			</li>
+		</ul>
+		<p><b>You're in the right place.</b> Here's what you can do next:</p></Hero>
 </Layout>
 
 <Layout width={'max-w-3xl'}>
